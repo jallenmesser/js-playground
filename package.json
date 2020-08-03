@@ -1,0 +1,26 @@
+{
+  "name": "js-playground",
+  "version": "1.0.0",
+  "description": "Playground for all of my javascript mini projects",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jallenmesser/js-playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jallenmesser/js-playground/issues"
+  },
+  "homepage": "https://github.com/jallenmesser/js-playground#readme",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

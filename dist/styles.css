@@ -7,3 +7,27 @@ body {
   p {
     color: white;
   }
+
+  h3{
+      margin: 0px;
+      padding: 10px;
+  }
+  h4{
+    margin: 0px;
+    padding: 10px;
+}
+
+  .color-changing {
+      display: flex;
+      flex-direction: column;
+      height: fit-content;
+      background-color: white;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+  }
+
+  .button{
+    height: 25px;
+    width: fit-content;
+  }

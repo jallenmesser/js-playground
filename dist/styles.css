@@ -5,7 +5,7 @@ body {
     color: white;
   }
   p {
-    color: white;
+    color: black;
   }
 
   h3{
@@ -25,7 +25,20 @@ body {
       align-items: center;
       justify-content: center;
       padding: 10px;
+      margin: 20px;
   }
+
+  .quotes {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
 
   .button{
     height: 25px;
